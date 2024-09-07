@@ -4,6 +4,9 @@
 
 PokéSigno é uma aplicação web divertida que associa seu signo zodiacal ao Pokémon perfeito para você! Ao inserir sua data de nascimento, a aplicação calcula seu signo e exibe um Pokémon correspondente, junto com suas características, atributos, uma mensagem motivacional e uma frase sarcástica para adicionar um toque de humor à pesquisa. 
 
+**Link do site**
+https://pokesigno.vercel.app/
+
 **Funcionalidades:**
 
 * **Cálculo do Signo:** A aplicação calcula o signo zodiacal com base na data de nascimento inserida.
