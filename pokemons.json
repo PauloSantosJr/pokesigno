@@ -1,0 +1,87 @@
+
+{
+    "Áries": {
+        "nome": "Charmander",
+        "atributos": "Fogo",
+        "personalidade": "Corajoso e Impulsivo",
+        "comentario": "Sempre pronto para uma aventura!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/4.png"
+    },
+    "Touro": {
+        "nome": "Bulbasaur",
+        "atributos": "Grama",
+        "personalidade": "Calmo e Determinado",
+        "comentario": "Adora um bom descanso no sol.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png"
+    },
+    "Gêmeos": {
+        "nome": "Pikachu",
+        "atributos": "Elétrico",
+        "personalidade": "Curioso e Comunicativo",
+        "comentario": "Sempre cheio de energia!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png"
+    },
+    "Câncer": {
+        "nome": "Squirtle",
+        "atributos": "Água",
+        "personalidade": "Leal e Protetor",
+        "comentario": "Adora fazer novos amigos.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/7.png"
+    },
+    "Leão": {
+        "nome": "Charizard",
+        "atributos": "Fogo",
+        "personalidade": "Confiante e Líder",
+        "comentario": "Sempre quer estar no centro das atenções!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/6.png"
+    },
+    "Virgem": {
+        "nome": "Eevee",
+        "atributos": "Normal",
+        "personalidade": "Prático e Organizado",
+        "comentario": "Pronto para se adaptar a qualquer situação.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/133.png"
+    },
+    "Libra": {
+        "nome": "Jigglypuff",
+        "atributos": "Fada",
+        "personalidade": "Sociável e Diplomático",
+        "comentario": "Seu canto é inconfundível!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/39.png"
+    },
+    "Escorpião": {
+        "nome": "Gengar",
+        "atributos": "Fantasma",
+        "personalidade": "Intenso e Misterioso",
+        "comentario": "Sempre tem um truque na manga.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/94.png"
+    },
+    "Sagitário": {
+        "nome": "Ponyta",
+        "atributos": "Fogo",
+        "personalidade": "Aventureiro e Otimista",
+        "comentario": "Sempre correndo atrás do próximo desafio!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/77.png"
+    },
+    "Capricórnio": {
+        "nome": "Onix",
+        "atributos": "Pedra",
+        "personalidade": "Responsável e Determinado",
+        "comentario": "Nada pode te parar!",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/95.png"
+    },
+    "Aquário": {
+        "nome": "Lapras",
+        "atributos": "Água",
+        "personalidade": "Inovador e Independente",
+        "comentario": "Navegando sempre em mares novos.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/131.png"
+    },
+    "Peixes": {
+        "nome": "Vaporeon",
+        "atributos": "Água",
+        "personalidade": "Sonhador e Sensível",
+        "comentario": "Adora um mergulho profundo.",
+        "url_imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/134.png"
+    }
+}

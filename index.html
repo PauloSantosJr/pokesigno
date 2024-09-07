@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéSigno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pesquise o Pokémon que combina com Seu Signo!</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <label for="dataNascimento">Data Nascimento:</label>
+            <input type="date" id="dataNascimento" required>
+            <br/>
+            <button type="submit" onclick="pesquisar()">Pesquise o Pokémon</button>
+
+            <div id="resultado" class="resultado">
+                <img id="quem_eh_esse_pokemon" src="quem_eh_esse_pokemon.jpeg" alt="Quem é esse Pokémon?">
+            </div>
+            <!--
+            <div id="resultado" class="resultado">
+                <h2>Seu signo é Áries!</h2>
+                <h3>O Pokémon que combina com você é Charmander!</h3>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/4.png" alt="Pokémon Charmander" id="pokemon-signo">
+                <p><strong>Atributos:</strong> Fogo</p>
+                <p><strong>Personalidade:</strong> Corajoso e Impulsivo</p>
+                <p><strong>Comentário:</strong> Sempre pronto para uma aventura!</p>
+                <br>
+                <div id="comment_sarc">
+                    <img id="emoji_thinking_face" src="emoji_thinking_face_1F914.svg" alt="emoji thinking face">
+                    <p class="font_yellow">  Com um signo desses, espero que seu ascendente seja mais legal!</p>
+                </div>
+            </div>
+            
+            <div id="resultado" class="resultado">
+                <h2>Seu signo é Áries!</h2>
+                <h3>O Pokémon que combina com você é Charmander!</h3>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/4.png" alt="Pokémon Charmander" id="pokemon-signo">
+                <p><strong>Atributos:</strong> Fogo</p>
+                <p><strong>Personalidade:</strong> Corajoso e Impulsivo</p>
+                <p><strong>Comentário:</strong> Sempre pronto para uma aventura!</p>                
+                <div id="links">
+                    <a target="_blank" href="https://www.pokemon.com/br/pokedex/charmander">Saber mais sobre o Pokémon</a>
+                    <a target="_blank" href="https://www.personare.com.br/signos">Saber mais sobre o Signo</a>
+                </div>
+                <br>
+                <div id="comment_sarc">
+                    <img id="emoji_thinking_face" src="emoji_thinking_face_1F914.svg" alt="emoji thinking face">
+                    <p class="font_yellow">Então é esse o signo que faz as pessoas repensarem suas escolhas de vida?</p>
+                </div>
+            </div>
+            -->
+        </div>        
+    </main>
+
+    <footer>
+        <p>2024 - <a target="_blank" class="font_white font_decoration_none" href="https://github.com/PauloSantosJr/pokesigno">PokéSigno</a> - Pesquise o Pokémon que combina com Seu Signo!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

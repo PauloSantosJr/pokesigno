@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #ffde00; /* Amarelo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ajusta para usar altura mínima de 100% da viewport */
+    min-width: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombras mais fortes */
+    border: 5px solid #ff0000; /* Borda vermelha para destacar */
+    font-size: 10px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+main {
+    flex-grow: 1; /* Expande para ocupar o espaço entre o header e o footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombras mais fortes */
+    border: 5px solid #ff0000; /* Borda vermelha para destacar */
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #3b4cca; /* Azul */
+}
+
+button {
+    background-color: #3b4cca; /* Azul */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b3a125; /* Dourado */
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #cc0000; /* Vermelho Escuro */
+    color: white;
+    border: 2px solid #b3a125; /* Dourado */
+    border-radius: 5px;
+    align-items: center;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+#pokemon-signo {
+    width: 300px;
+    height: 300px;
+}
+
+#quem_eh_esse_pokemon{
+    width: 100%;
+    height: 500px;
+}
+
+.font_decoration_none{
+    text-decoration: none;
+}
+
+.font_white{
+    color: white;
+}
+
+.font_yellow{
+    color: yellow;
+}
+
+.font_shadow{
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+#emoji_thinking_face{
+    width: 30px;
+    height: 30px;
+}
+
+#comment_sarc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+#comment_sarc img, #comment_sarc p{
+    justify-content:space-around;
+    padding-left: 10px;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+}
+#links a{
+    padding: 10px;
+    font-size: 11px;
+    align-items: center; 
+    color: white;
+}
+
+/*&nbsp;*/
+footer {
+    background-color: #cc0000; /* Vermelho Escuro */
+    color: white;
+    text-align: center;
+    padding: 5px;
+    min-width: 100vh;
+    border: 2px solid #b3a125; /* Dourado */
+    border-radius: 5px;
+    font-size: 8px;
+    margin-top: auto; /* Empurra o footer para o final */
+    flex-shrink: 0; /* Evita que o footer encolha */
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black
+}
