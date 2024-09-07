@@ -33,9 +33,10 @@ PokéSigno é uma aplicação web divertida que associa seu signo zodiacal ao Po
 
 
 *Interface inicial da aplicação*
-
+https://github.com/PauloSantosJr/pokesigno/blob/main/projeto_demo.jpg?raw=true
 
 *Exemplo de resultado da pesquisa*
+https://github.com/PauloSantosJr/pokesigno/blob/main/projeto_demo_resultado.jpg?raw=true
 
 **Contribuições:**
 
